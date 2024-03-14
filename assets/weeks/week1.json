@@ -1,22 +1,48 @@
 {
-	"songs": [
-		["Bopeebo", "dad", [146, 113, 253]],
-		["Fresh", "dad", [146, 113, 253]],
-		["Dad Battle", "dad", [146, 113, 253]]
+	"storyName": "Vs Jeffy",
+	"hideFreeplay": false,
+	"weekBackground": "halloween",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
 	],
-
+	"startUnlocked": true,
 	"weekCharacters": [
 		"dad",
 		"bf",
-		"gf"
+		""
 	],
-	"weekBackground": "stage",
-
-	"storyName": "Daddy Dearest",
-	"weekBefore": "tutorial",
-	"weekName": "Week 1",
-	"startUnlocked": true,
-
+	"songs": [
+		[
+			"doh de oh",
+			"dad",
+			[
+				255,
+				180,
+				0
+			]
+		],
+		[
+			"pencil",
+			"dad",
+			[
+				255,
+				180,
+				0
+			]
+		],
+		[
+			"bang em and slang em",
+			"pico"
+			[
+				0,
+				40,
+				140
+			]
+		]
+	],
 	"hideStoryMode": false,
-	"hideFreeplay": false
+	"weekName": "Week 1"
 }
