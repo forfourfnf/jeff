@@ -1,32 +1,54 @@
 {
 	"animations": [
 		{
+			"offsets": [
+				105,
+				382
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "face",
+			"indices": [],
+			"name": "lookatthatface"
+		},
+		{
+			"offsets": [
+				222,
+				276
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Down Miss"
+		},
+		{
 			"loop": false,
 			"offsets": [
-				296,
-				405
+				232,
+				299
 			],
-			"anim": "CatPiano",
+			"anim": "singLEFTmiss",
 			"fps": 24,
-			"name": "CatPianoSolo",
+			"name": "Right Miss",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				195,
-				419
+				345,
+				288
 			],
-			"anim": "idle",
+			"anim": "singRIGHTmiss",
 			"fps": 24,
-			"name": "idlePencil",
+			"name": "Left Miss",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				312,
-				386
+				261,
+				357
 			],
 			"anim": "singDOWN",
 			"fps": 24,
@@ -34,32 +56,21 @@
 			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
-				187,
-				478
-			],
-			"anim": "singUP",
-			"fps": 24,
-			"name": "up",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				223,
+				362,
 				449
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
 		},
 		{
 			"loop": false,
 			"offsets": [
-				179,
-				413
+				131,
+				397
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
@@ -68,65 +79,43 @@
 		},
 		{
 			"offsets": [
-				191,
-				418
+				227,
+				705
 			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singRIGHT-alt",
 			"loop": false,
-			"name": "cat piano hit"
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
 		},
 		{
 			"offsets": [
-				191,
-				418
+				115,
+				379
 			],
 			"indices": [],
 			"fps": 24,
-			"anim": "singUP-alt",
+			"anim": "idle",
 			"loop": false,
-			"name": "cat piano hit"
-		},
-		{
-			"offsets": [
-				191,
-				419
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singDOWN-alt",
-			"loop": false,
-			"name": "cat piano hit"
-		},
-		{
-			"offsets": [
-				191,
-				418
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "singLEFT-alt",
-			"loop": false,
-			"name": "cat piano hit"
+			"name": "idle"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/DADDY_DEAREST",
+	"image": "characters/spooky_kids_assets",
 	"position": [
-		160,
-		490
+		80,
+		420
 	],
 	"healthicon": "dad",
 	"flip_x": false,
 	"healthbar_colors": [
 		255,
 		120,
-		20
+		0
 	],
 	"camera_position": [
-		-330,
-		-340
+		-310,
+		-330
 	],
 	"sing_duration": 4,
 	"scale": 0.9

@@ -1,103 +1,103 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				297,
 				330
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUPmiss",
-			"indices": [],
-			"name": "Up Miss"
+			"fps": 24,
+			"name": "Up Miss",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				222,
 				276
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWNmiss",
-			"indices": [],
-			"name": "Down Miss"
+			"fps": 24,
+			"name": "Down Miss",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				232,
 				299
 			],
-			"anim": "singLEFTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "Right Miss",
-			"indices": []
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "Right Miss"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				345,
 				288
 			],
-			"anim": "singRIGHTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "Left Miss",
-			"indices": []
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "Left Miss"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				71,
 				447
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				192,
 				489
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "left"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				65,
-				455
-			],
-			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "right",
+			"name": "left",
 			"indices": []
 		},
 		{
 			"offsets": [
-				67,
-				535
+				65,
+				455
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "singUP",
+			"anim": "singRIGHT",
 			"indices": [],
-			"name": "up"
+			"name": "right"
 		},
 		{
+			"loop": false,
+			"offsets": [
+				67,
+				535
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
 			"offsets": [
 				84,
 				479
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "idle"
+			"fps": 24,
+			"name": "idle",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -110,7 +110,7 @@
 	"flip_x": false,
 	"healthbar_colors": [
 		255,
-		40,
+		120,
 		0
 	],
 	"camera_position": [
