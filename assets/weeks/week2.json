@@ -1,22 +1,67 @@
 {
 	"songs": [
-		["Spookeez", "spooky", [34, 51, 68]],
-		["South", "spooky", [34, 51, 68]],
-		["Monster", "monster", [34, 51, 68]]
+		[
+			"Spookeez",
+			"spirit-pixel",
+			[
+				255,
+				140,
+				0
+			]
+		],
+		[
+			"South",
+			"spirit-pixel",
+			[
+				255,
+				140,
+				0
+			]
+		],
+		[
+			"Monster",
+			"spirit-pixel",
+			[
+				255,
+				140,
+				0
+			]
+		],
+		[
+			"Pico",
+			"spirit-pixel",
+			[
+				255,
+				140,
+				0
+			]
+		],
+		[
+			"Philly Nice",
+			"spirit-pixel",
+			[
+				255,
+				140,
+				0
+			]
+		]
 	],
-
 	"weekCharacters": [
-		"spooky",
-		"bf",
-		"gf"
+		"parents-christmas",
+		"mom",
+		"pico"
 	],
-	"weekBackground": "halloween",
-
-	"storyName": "Spooky Month",
-	"weekBefore": "week1",
-	"weekName": "Week 2",
+	"weekBackground": "philly",
+	"weekBefore": "tutorial",
+	"storyName": "Vs. Drawing Jeffy",
+	"weekName": "Custom Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
 	"startUnlocked": true,
-
 	"hideStoryMode": false,
-	"hideFreeplay": false
+	"hideFreeplay": false,
+	"difficulties": ""
 }
