@@ -3,74 +3,30 @@
 		{
 			"loop": false,
 			"offsets": [
-				0,
-				0
+				1,
+				-19
 			],
 			"anim": "danceLeft",
 			"fps": 24,
-			"name": "GF IDLE",
-			"indices": [
-				30,
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14
-			]
+			"name": "idlel",
+			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				0,
-				0
+				1,
+				-15
 			],
 			"anim": "danceRight",
 			"fps": 24,
-			"name": "GF IDLE",
-			"indices": [
-				15,
-				16,
-				17,
-				18,
-				19,
-				20,
-				21,
-				22,
-				23,
-				24,
-				25,
-				26,
-				27,
-				28,
-				29
-			]
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
-			"anim": "singUP",
-			"fps": 24,
-			"name": "GF IDLE",
+			"name": "idler",
 			"indices": []
 		}
 	],
-	"no_antialiasing": true,
+	"no_antialiasing": false,
 	"image": "characters/gfPixel",
 	"position": [
-		0,
+		-600,
 		0
 	],
 	"healthicon": "gf",
@@ -81,9 +37,9 @@
 		77
 	],
 	"camera_position": [
-		-20,
-		80
+		0,
+		0
 	],
 	"sing_duration": 4,
-	"scale": 5.99999999999999
+	"scale": 1
 }

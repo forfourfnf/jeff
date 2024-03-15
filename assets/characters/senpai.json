@@ -2,77 +2,132 @@
 	"animations": [
 		{
 			"offsets": [
-				1,
-				0
+				-66,
+				69
 			],
 			"loop": false,
-			"anim": "idle",
+			"anim": "singRIGHTmiss",
 			"fps": 24,
-			"name": "Senpai Idle",
+			"name": "Pico NOTE LEFT miss",
 			"indices": []
 		},
 		{
 			"offsets": [
-				5,
-				37
+				62,
+				64
 			],
 			"loop": false,
+			"anim": "singLEFTmiss",
 			"fps": 24,
-			"anim": "singUP",
-			"indices": [],
-			"name": "SENPAI UP NOTE"
+			"name": "Pico Note Right Miss",
+			"indices": []
 		},
 		{
+			"offsets": [
+				210,
+				-28
+			],
+			"loop": false,
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Pico Down Note MISS",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-19,
+				67
+			],
+			"loop": false,
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "pico Up note miss",
+			"indices": []
+		},
+		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
+			"anim": "",
 			"fps": 24,
-			"anim": "singRIGHT",
-			"indices": [],
-			"name": "SENPAI RIGHT NOTE"
+			"name": "",
+			"indices": []
 		},
 		{
-			"offsets": [
-				40,
-				0
-			],
 			"loop": false,
+			"offsets": [
+				-254,
+				304
+			],
+			"anim": "singUP",
 			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-141,
+				232
+			],
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "SENPAI LEFT NOTE"
+			"fps": 24,
+			"name": "left",
+			"indices": []
 		},
 		{
 			"offsets": [
-				14,
-				0
+				-255,
+				247
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "singDOWN",
+			"anim": "idle",
 			"indices": [],
-			"name": "SENPAI DOWN NOTE"
+			"name": "idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-93,
+				207
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-250,
+				237
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
 		}
 	],
-	"no_antialiasing": true,
-	"image": "characters/senpai",
+	"no_antialiasing": false,
+	"image": "characters/dj",
 	"position": [
-		150,
-		360
+		320,
+		280
 	],
-	"healthicon": "senpai-pixel",
+	"healthicon": "drawing-jeffy",
 	"flip_x": false,
 	"healthbar_colors": [
 		255,
-		170,
-		111
+		195,
+		0
 	],
 	"camera_position": [
-		-240,
-		-330
+		100,
+		-70
 	],
 	"sing_duration": 4,
-	"scale": 6
+	"scale": 0.8
 }

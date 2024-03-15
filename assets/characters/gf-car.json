@@ -1,14 +1,47 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
-				2,
-				0
+				-66,
+				69
 			],
-			"anim": "singUP",
+			"loop": false,
+			"anim": "singRIGHTmiss",
 			"fps": 24,
-			"name": "GF Dancing Beat Hair blowing CAR",
+			"name": "Pico NOTE LEFT miss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				62,
+				64
+			],
+			"loop": false,
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Pico Note Right Miss",
+			"indices": []
+		},
+		{
+			"offsets": [
+				210,
+				-28
+			],
+			"loop": false,
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Pico Down Note MISS",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-19,
+				67
+			],
+			"loop": false,
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "pico Up note miss",
 			"indices": []
 		},
 		{
@@ -17,73 +50,84 @@
 				0,
 				0
 			],
+			"anim": "",
 			"fps": 24,
-			"anim": "danceRight",
-			"indices": [
-				15,
-				16,
-				17,
-				18,
-				19,
-				20,
-				21,
-				22,
-				23,
-				24,
-				25,
-				26,
-				27,
-				28,
-				29
-			],
-			"name": "GF Dancing Beat Hair blowing CAR"
+			"name": "",
+			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				0,
-				0
+				-254,
+				304
 			],
+			"anim": "singUP",
 			"fps": 24,
-			"anim": "danceLeft",
-			"indices": [
-				30,
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-141,
+				232
 			],
-			"name": "GF Dancing Beat Hair blowing CAR"
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-255,
+				247
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-93,
+				207
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-250,
+				237
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/gfCar",
 	"position": [
-		0,
-		0
+		320,
+		280
 	],
-	"healthicon": "gf",
+	"healthicon": "spirit-pixel",
 	"flip_x": false,
 	"healthbar_colors": [
-		165,
-		0,
-		77
-	],
-	"camera_position": [
-		0,
+		255,
+		195,
 		0
 	],
+	"camera_position": [
+		100,
+		-70
+	],
 	"sing_duration": 4,
-	"scale": 1
+	"scale": 0.8
 }
